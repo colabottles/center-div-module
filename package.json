@@ -1,0 +1,55 @@
+{
+  "name": "@nuxt/center-div",
+  "version": "0.1.0",
+  "description": "Accessible centering component for Nuxt",
+  "repository": "your-repo",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxi prepare playground",
+    "prepack": "nuxt-module-build build",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.13.0"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/eslint-config": "^0.5.0",
+    "@nuxt/module-builder": "^0.8.0",
+    "@nuxt/schema": "^3.13.0",
+    "@nuxt/test-utils": "^3.14.0",
+    "@playwright/test": "^1.57.0",
+    "@vitejs/plugin-vue": "^6.0.3",
+    "@vue/compiler-sfc": "^3.5.26",
+    "@vue/test-utils": "^2.4.6",
+    "axe-core": "^4.11.1",
+    "changelogen": "^0.5.5",
+    "eslint": "^9.9.0",
+    "happy-dom": "^20.1.0",
+    "nuxt": "^3.13.0",
+    "typescript": "latest",
+    "vitest": "^2.0.5",
+    "vitest-axe": "^0.1.0",
+    "vue-tsc": "^2.0.29"
+  }
+}
