@@ -80,7 +80,7 @@ export default defineNuxtConfig({
 ### `<CenterDiv>` Props
 
 | Prop | Type | Default | Description |
-|------|------|---------|-------------||
+| ---- | ---- | ------- | ----------- |
 | `axis` | `'horizontal' \| 'vertical' \| 'both'` | `'both'` | Centering axis |
 | `as` | `keyof HTMLElementTagNameMap` | `'section'` | HTML element to render |
 | `minBlockSize` | `string` | `undefined` | Minimum height (uses logical properties) |
