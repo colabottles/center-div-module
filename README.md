@@ -1,4 +1,4 @@
-# @nuxt/center-div
+# @colabottles/center-div
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -25,14 +25,14 @@ Centering content in Nuxt often involves repeating the same CSS Grid or Flexbox 
 ## 🚀 Quick Setup
 
 ```bash
-npx nuxi module add @nuxt/center-div
+npx nuxi module add @colabottles/center-div
 ```
 
 Add to your `nuxt.config.ts`:
 
 ```typescript
 export default defineNuxtConfig({
-  modules: ['@nuxt/center-div']
+  modules: ['@colabottles/center-div']
 })
 ```
 
@@ -198,11 +198,11 @@ Created for the Nuxt community with accessibility and developer experience in mi
 ---
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@nuxt/center-div/latest.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-version-href]: https://npmjs.com/package/@nuxt/center-div
-[npm-downloads-src]: https://img.shields.io/npm/dm/@nuxt/center-div.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-downloads-href]: https://npmjs.com/package/@nuxt/center-div
-[license-src]: https://img.shields.io/npm/l/@nuxt/center-div.svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://npmjs.com/package/@nuxt/center-div
+[npm-version-src]: https://img.shields.io/npm/v/@colabottles/center-div/latest.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-version-href]: https://npmjs.com/package/@colabottles/center-div
+[npm-downloads-src]: https://img.shields.io/npm/dm/@colabottles/center-div.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-downloads-href]: https://npmjs.com/package/@colabottles/center-div
+[license-src]: https://img.shields.io/npm/l/@colabottles/center-div.svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: https://npmjs.com/package/@colabottles/center-div
 [nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js&logoColor=00DC82
 [nuxt-href]: https://nuxt.com
